@@ -6,7 +6,7 @@ namespace MoinDiscordBot;
 public class TenorClient
 {
     private readonly static HttpClient httpClient = new HttpClient();
-    private string tenorToken = Environment.GetEnvironmentVariable("GIPHY_TOKEN") ?? throw new MissingFieldException("Tenor token missing");
+    private string tenorToken = Environment.GetEnvironmentVariable("TENOR_TOKEN") ?? throw new MissingFieldException("Tenor token missing");
     private TenorResponse tenorResponse;
     public IList<string> GifUrls
     {
