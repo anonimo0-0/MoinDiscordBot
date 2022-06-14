@@ -22,6 +22,10 @@ public class Tenor
                 index = Random.Shared.Next(0, 51);
             }
         }
+        else
+        {
+            previousIndex = index;
+        }
 
         return gifUrls[index];
     }
