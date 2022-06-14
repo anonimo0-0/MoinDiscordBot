@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{390D0759-113B-49F4-9BF5-61F4110C1330}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoinDiscordBot", "src\MoinDiscordBot\MoinDiscordBot.csproj", "{5B08A815-F8ED-4426-9011-FB891206E698}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{6F7290AD-3DAC-4938-8609-BBBC029FDE9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoinDiscordBotTests", "test\MoinDiscordBotTests\MoinDiscordBotTests.csproj", "{C12B678C-FD1D-455B-964E-AC4424CA7C30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B08A815-F8ED-4426-9011-FB891206E698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B08A815-F8ED-4426-9011-FB891206E698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B08A815-F8ED-4426-9011-FB891206E698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B08A815-F8ED-4426-9011-FB891206E698}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C12B678C-FD1D-455B-964E-AC4424CA7C30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C12B678C-FD1D-455B-964E-AC4424CA7C30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C12B678C-FD1D-455B-964E-AC4424CA7C30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C12B678C-FD1D-455B-964E-AC4424CA7C30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5B08A815-F8ED-4426-9011-FB891206E698} = {390D0759-113B-49F4-9BF5-61F4110C1330}
+		{C12B678C-FD1D-455B-964E-AC4424CA7C30} = {6F7290AD-3DAC-4938-8609-BBBC029FDE9C}
+	EndGlobalSection
+EndGlobal
